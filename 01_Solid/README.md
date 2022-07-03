@@ -16,3 +16,6 @@ SOLID is a mnemonic acronym for five design principles intended to make object-o
 * Split into separate interfaces
 * YAGNI - You Ain't Gonna Need It
   
+ ## Dependency Inversion Principle
+* High level modules should not depend on low level ones
+* Use abstractions
