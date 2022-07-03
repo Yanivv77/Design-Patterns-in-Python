@@ -11,3 +11,8 @@ SOLID is a mnemonic acronym for five design principles intended to make object-o
 ## Liskov Substitution Principle
 *  You should be able to substitute a base type for a subtype
   
+  ## Interface Segregation Principle
+* Don't put too much into an interface
+* Split into separate interfaces
+* YAGNI - You Ain't Gonna Need It
+  
