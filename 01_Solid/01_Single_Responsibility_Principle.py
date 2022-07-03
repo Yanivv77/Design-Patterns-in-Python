@@ -14,6 +14,8 @@ class Journal:
         return "\n".join(self.entries)
 
     # break SRP
+    # methods below give class responsibility of persistence, bad idea!
+
     def save(self, filename):
         file = open(filename, "w")
         file.write(str(self))
@@ -25,7 +27,7 @@ class Journal:
     def load_from_web(self, uri):
         pass
 
-
+# instead, create another class to handle that responsibility
 class PersistenceManager:
     def save_to_file(journal, filename):
         file = open(filename, "w")
