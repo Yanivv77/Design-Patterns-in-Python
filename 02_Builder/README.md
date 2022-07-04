@@ -2,6 +2,7 @@
 When piecewise object construction is complicated,
 provide an API for doing it clearly
 
+## Why to use Builder pattern
 * some objects are simply and can be created in a single
   initializer call
 * other objects require a lot of ceremony to create
