@@ -10,5 +10,5 @@
  * Wholesale object creation (non-piecewise, unlike Builder)
    can be outsourced to
    - A separate method (Factory Method)
-   - That may exist in a separate clas (Factory)
-   - Can create a hiearchy of factories of Abstract Factory
+   - That may exist in a separate class (Factory)
+   - Can create a hierarchy of factories of Abstract Factory
