@@ -1,7 +1,7 @@
 # Singleton
  * A component which is instantiated only once
 
-## Why to use Factories pattern
+## Why to use Singleton pattern
 * For some components it only makes sense to have one in the system
    - Database repository
    - Object factory
