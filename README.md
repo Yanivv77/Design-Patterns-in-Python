@@ -2,6 +2,7 @@
 
 - [SOLID](https://github.com/Yanivv77/Design-Patterns-in-Python/tree/main/01_Solid)
   - Five design principles intended to make object-oriented designs more understandable, flexible, and maintainable 
+
 - Creational Design Patterns:
   - [Builder](/02_Builder)
     - A builder is a separate component for building an object
@@ -13,7 +14,6 @@
     - A factory is an entity that can take care of object creation
     - A factory can be external or reside inside the object as an inner class
     - Hierarchies of factories can be used to create related objects
-- Creational Design Patterns:
   - [Prototype](/04_Prototype)
     - To implement a prototype, partially construct an object and store it somewhere
     - Deep copy the prototype
@@ -25,3 +25,10 @@
     - Laziness is easy, just init on first request
     - Monostate variation
     - Testability issues
+
+- Structural Design Patterns: 
+  - [Adapter](/06_Adapter)
+    - Implementing an Adapter is easy
+    - Determine the API you have and the API you need
+    - Create a component which aggregates (has a reference to, ...) the adaptee
+    - Intermediate representations can pile up: use caching and other optimizations
