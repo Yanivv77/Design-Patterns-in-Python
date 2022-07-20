@@ -1,13 +1,8 @@
-# Singleton
- * A component which is instantiated only once
+# Bridge
+ * A mechanism that decouples an interface (hierarchy) from an implementation
+  (hierarchy)
 
-## Why to use Factories pattern
-* For some components it only makes sense to have one in the system
-   - Database repository
-   - Object factory
-* E.g., the initializer call is expensive
-* We make a copy (clone) the prototype and customize it
-   - We only do it once
-   - We provide everyone with the same instance
-* Want to prevent anyone from creating additional copies
-* Need to take care of lazy instantiation
+## Why to use Bridge pattern
+ - Decouple abstraction from implementation
+ - Both can exist as hierarchies
+ - A stronger form of encapsulation
