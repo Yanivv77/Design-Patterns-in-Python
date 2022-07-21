@@ -51,3 +51,8 @@
     - Store common data externally 
     - Specify an index or a reference into the external data store
     - Define the idea of 'ranges' on homogeneous collections and store data related to those ranges
+  - [Proxy](/12_Proxy)
+    - A proxy has the same interface as underlying object
+    - To create a proxy, simple replicate the existing interface of an object
+    - Add relevant functionality to the redefined member functions
+    - Different proxies (communications, logging, caching, etc.) have completely different behaviors
