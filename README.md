@@ -47,10 +47,14 @@
     - May or may not forward calls to the underlying object
     - Proxying of underlying calls can be done dynamically
     - Python's functional decorators wrap functions; no direct relation to the GoF Decorator Pattern
-  - [Flyweight](/10_Facade)
-    - Store common data externally 
+  - [Facade](/10_Facade)
+    - Build a Facade to provide a simplified API over a set of classes
+    - May wish to (optionally) expose internals through the facade
+    - May allow users to 'escalate' to use more complex API
+ - [Flyweight](/11_Flyweight)
+    - Store common data externally
     - Specify an index or a reference into the external data store
-    - Define the idea of 'ranges' on homogeneous collections and store data related to those ranges
+    - Define the idea of 'ranges' on homogeneuous collections and store data related to those ranges
   - [Proxy](/12_Proxy)
     - A proxy has the same interface as underlying object
     - To create a proxy, simple replicate the existing interface of an object
