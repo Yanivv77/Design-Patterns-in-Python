@@ -1,9 +1,9 @@
 # Design-Patterns-in-Python
 
-- [SOLID](https://github.com/Yanivv77/Design-Patterns-in-Python/tree/main/01_Solid)
+# [SOLID](https://github.com/Yanivv77/Design-Patterns-in-Python/tree/main/01_Solid)
   - Five design principles intended to make object-oriented designs more understandable, flexible, and maintainable 
 
-- Creational Design Patterns:
+# Creational Design Patterns:
   - [Builder](/02_Builder)
     - A builder is a separate component for building an object
     - Can either give builder an initializer or return it via a static function
@@ -25,7 +25,7 @@
     - Monostate variation
     - Testability issues
 
-- Structural Design Patterns: 
+# Structural Design Patterns: 
   - [Adapter](/06_Adapter)
     - Implementing an Adapter is easy
     - Determine the API you have and the API you need
@@ -60,3 +60,10 @@
     - To create a proxy, simple replicate the existing interface of an object
     - Add relevant functionality to the redefined member functions
     - Different proxies (communications, logging, caching, etc.) have completely different behaviors
+
+  # Behavioral Design Patterns
+  - [Chain of Responsibility](/13_Chain_of_Responsibility)
+    - Chain of responsibility can be implemented as a chain of references or
+      a centralized construct
+    - Enlist objects in the chain, possibly controlling their order
+    - Object removal from chain (e.g., \_\_exit\_\_)
