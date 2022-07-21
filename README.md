@@ -48,6 +48,6 @@
     - Proxying of underlying calls can be done dynamically
     - Python's functional decorators wrap functions; no direct relation to the GoF Decorator Pattern
   - [Flyweight](/10_Facade)
-    - Store common data externally
+    - Store common data externally 
     - Specify an index or a reference into the external data store
-    - Define the idea of 'ranges' on homogeneuous collections and store data related to those ranges
+    - Define the idea of 'ranges' on homogeneous collections and store data related to those ranges
