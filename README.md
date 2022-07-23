@@ -72,7 +72,11 @@
     - Define instruction for applying the command (either in the command itself, or elsewhere)
     - Optionally define instructions for undoing the command
     - Can create composite commands (a.k.a. macros)
-  - [Interpreter](/interpreter)
+  - [Interpreter](/15_Interpreter)
     - Barring simple cases, an interpreter acts in two stages
     - Lexing turns text into a set of tokens
     - Parsing tokens into meaningful construct
+  - [Iterator](/16_Iterator)
+    - An iterator specified how you can traverse an object
+    - Stateful iterators cannot be recursive
+    - yield allows for much more succinct iteration
