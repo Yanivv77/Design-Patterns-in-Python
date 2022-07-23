@@ -72,3 +72,7 @@
     - Define instruction for applying the command (either in the command itself, or elsewhere)
     - Optionally define instructions for undoing the command
     - Can create composite commands (a.k.a. macros)
+  - [Interpreter](/interpreter)
+    - Barring simple cases, an interpreter acts in two stages
+    - Lexing turns text into a set of tokens
+    - Parsing tokens into meaningful construct
