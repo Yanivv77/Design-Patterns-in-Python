@@ -107,3 +107,7 @@
     - Define an algorithm at a high level
     - Define the interface you expect each strategy to follow
     - Provide for dynamic composition of strategies in the resulting object
+  - [Template](/22_Template_Method)
+    - Define an algorithm at a high level in parent class
+    - Define constituent parts as abstract methods/properties
+    - Inherit the algorthm class, providing the necessary ovverides
