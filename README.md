@@ -116,6 +116,6 @@
     - Make a visitor, decorating each 'overload' with @visitor
     - Call visit() and the entire structure gets traversed
 
-    ## Awknowledgements
+    ## Awknowledgement
 
 - Dmitri Nesteruk's course "Design Patterns in Python" on Udemy.com
