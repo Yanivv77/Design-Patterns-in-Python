@@ -103,7 +103,7 @@
       - Action when a particular event causes a transition
       - Guard conditions enabling/disabling a transition
       - Default action when no transitions are found for an event
-  - [Strategy](/21_ Strategy)
+  - [Strategy](/21_Strategy)
     - Define an algorithm at a high level
     - Define the interface you expect each strategy to follow
     - Provide for dynamic composition of strategies in the resulting object
