@@ -115,3 +115,7 @@
     - OOP double-dispatch approach is not necessary in Python
     - Make a visitor, decorating each 'overload' with @visitor
     - Call visit() and the entire structure gets traversed
+
+    ## Awknowledgements
+
+- Dmitri Nesteruk's course "Design Patterns in Python" on Udemy.com
